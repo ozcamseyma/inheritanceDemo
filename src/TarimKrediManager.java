@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class TarimKrediManager {
+public class TarimKrediManager extends BaseKrediManager{
+
+    @Override
+    public void hesapla() {
+        System.out.println("Tarım Kredi Hesaplandı.");
+    }
+
+
+
+
 }
